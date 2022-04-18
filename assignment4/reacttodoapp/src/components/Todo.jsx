@@ -1,20 +1,24 @@
-import { useState } from "react"
+import { useState,useEffect } from "react"
 
 function Todo({getData}){
-    const [text,setText] = useState("");
+    const [time,setTime] = useState(0);
     
-    const getData = (todo) => {
-        set
-    }
+    useEffect(() => {
+      setInterval(() => {
+        setTime + 1
+      },1000)
+    },[])
+   
     return <div>
 
-        <input onChange = {(e) => {
+
+        {/* <input onChange = {(e) => {
             // console.log(text)
              setText(e.target.value);
-         } }type="text" placeholder="Enter The Things Todo List"/>
-        <button onClick = {() => {
+         } }type="text" placeholder="Enter The Things Todo List"/> */}
+        {/* <button onClick = {() => {
            getData(text);
-        }}>+</button>
+        }}>+</button> */}
         {/* <div>{text}</div> */}
         
     </div>
