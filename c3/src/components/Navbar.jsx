@@ -4,7 +4,7 @@ import {Tempcontext} from './LogContext'
 export const Navbar = () => {
   const {isAuth,toggleAuth} = useContext(Tempcontext)
   return (
-    <div className="navbar">
+    <div className="navbar" >
       <Link className="nav-home" to="/">
         Home
       </Link>
