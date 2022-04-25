@@ -1,0 +1,27 @@
+.main{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    border:1px solid black;
+    height:60px;
+    background-color:#FFF89A;
+    color:#FF8AAE;
+}
+.left{
+    align-items:left;
+    margin:15px;
+    font-size:25px;
+    font-weight:bold;
+    font-style:italic;
+    font-family:'Times New Roman', Times, serif;
+}
+.right{
+    margin:15px;
+    text-decoration:none;
+    /* margin-left:10px; */
+}
+.right>Link{
+    justify-content:space-between;
+    /* margin:5px; */
+    
+}
