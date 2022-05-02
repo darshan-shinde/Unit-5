@@ -67,11 +67,12 @@ export const NewOrder = () => {
         {/* Here create a div for every oreder, filter them before based on `showUnfinished` */}
         <div className="past-orders">
           {orders.map((e)=>(
+           
            <span className="id">{e.id}</span>,
            <span className="problem">{e.problem}</span>,
            <span className="cost">{e.cost}</span>,
            <p className="status">Status:{e.status} </p>,
-          <hr />
+           <hr />
           ))}
         
         </div>
